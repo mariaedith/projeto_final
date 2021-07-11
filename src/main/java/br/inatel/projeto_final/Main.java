@@ -16,8 +16,8 @@ import br.inatel.projeto_final.utils.CryptoUtils;
 			Scanner input = new Scanner(System.in);
 	        boolean jogo = true;
 	        
-	        Heroi Player1 = new Guerreiro("Dandara", 50 , "Culverins", 30);
-	        Inimigo Player2 = new Inimigo("Xazam", 60 , "Scalibur", 32);
+	        Heroi Player1 = new Guerreiro("Dandara", 5, "Culverins", 30);
+	        Inimigo Player2 = new Inimigo("Xazam", 5 , "Scalibur", 32);
 	      
 
 			Path arquivo = Paths.get("frase.txt");
