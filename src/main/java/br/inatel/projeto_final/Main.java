@@ -16,7 +16,7 @@ import br.inatel.projeto_final.utils.CryptoUtils;
 			Scanner input = new Scanner(System.in);
 	        boolean jogo = true;
 	        
-	        Heroi Player1 = new Guerreiro("Dandara", 5, "Culverins", 30);
+	        Heroi Player1 = new Guerreiro("Dandara", 5, "Culverins", 29);
 	        Inimigo Player2 = new Inimigo("Xazam", 5 , "Scalibur", 32);
 	      
 
