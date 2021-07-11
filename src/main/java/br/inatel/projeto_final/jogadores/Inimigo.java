@@ -1,5 +1,7 @@
 package br.inatel.projeto_final.jogadores;
 
+import java.util.Random;
+
 public class Inimigo {
 
 	private String nome, arma;
@@ -17,7 +19,8 @@ public class Inimigo {
 	//Atividade
 		public int atacar() {
 			System.out.println("Inimigo atacando!");
-			return 0;
+			Random dano = new Random();
+	        return dano.nextInt(2);
 		}
 			
 		public void decremento() {
